@@ -1,0 +1,30 @@
+#loginf{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+
+body{
+    background-color: #646464;
+}
+
+.reg{
+    margin-top: 40px;
+}
+
+.login{
+    margin-top: 20px;
+}
+
+.icon{
+    background-color: #3697bd;
+    margin-bottom: 50px;
+}
+
+.notps{
+    margin-left: 50%;
+}

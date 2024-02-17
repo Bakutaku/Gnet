@@ -1,0 +1,22 @@
+<!-- GameModal -->
+<div class="modal fade" id="tagModal" tabindex="-1" aria-labelledby="tagModalLavle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tagModalLavle">タグを選択</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul class="list-group">
+          <div th:each="tag : ${tagList}">
+            <a th:onclick="|selectTag(__${tag.id}__)|" class="list-group-item list-group-item-action tag-list" th:text="${tag.title}" th:id="${tag.id}">Tag</a>
+          </div>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Sa</button> -->
+      </div>
+    </div>
+  </div>
+</div>

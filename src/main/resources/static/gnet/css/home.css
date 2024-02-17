@@ -1,0 +1,98 @@
+/* label{
+    position: relative;
+    top: 100px;
+    left: 380px;
+    color: azure;
+}
+.r{
+  background-color: #404040;
+}
+
+a:link{
+  color: #ffffff;
+}
+
+  .come{
+    position: relative;
+    top: 160px;
+    left: 350px;
+    color: aliceblue;
+  }
+  .icon{
+    position: relative;
+    top: 30px;
+    left: 300px;
+    
+    margin-right: 5px;
+  }
+  .henshin{
+    position: relative;
+    top: 200px;
+    left: 350px;
+    margin-right: 5px;
+  }
+  .retweet{
+    position: relative;
+    top: 120px;
+    left: 540px;
+  
+    margin-right: 5px;
+  }
+  .heart{
+    position: relative;
+    top: 40px;
+  
+    margin-right: 5px;
+  }
+  
+.toukou{
+    position: relative;
+    border-radius: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom:0;
+    right: 0;
+    width:100px;
+    height:100px;
+}
+.box1 {
+  padding: 0.5em 1em;
+  
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 3px #6A5ACD;
+  margin-left: 1450px;
+  margin-top: -400px;
+  width: 300px;
+   height: 600px;
+   background-color: #808080;
+}
+.box2 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  border: solid 3px #ffffff;
+  width: 130px;
+   height: 40px;
+   margin-left: 1540px;
+  margin-top: -620px;
+}
+.box2 p {
+  margin: 0; 
+  padding: 0;
+  color: aliceblue;
+} */
+#home {
+  background-color: rgb(0, 119, 255);
+}
+
+
+
+.box{
+  background-color: #808080;
+  border: solid 3px #6A5ACD;
+  min-height: 50vh;
+  max-height: 80vh;
+}

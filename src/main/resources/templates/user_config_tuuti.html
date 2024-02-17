@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- cssファイルを読み込むもの -->
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link href="css/user_config_通知.css" rel="stylesheet" type="text/css">
+
+	<!-- jQuery -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(function() {
+			$("#sidebar").load("components/sidebar.html");
+		});
+		$(function() {
+			$("#sidebar2").load("components/sidebar2.html");
+		});
+	</script> -->
+	<!-- タイトル -->
+	<title>タイトル</title>
+</head>
+<body>
+	<!-- 共通部品 -->
+
+	<!-- <div id="sidebar"></div>
+
+	<div id="body">
+		<div id="sidebar2"></div>
+			<div>
+				<span class="notice" style="text-align: center">通知</span>
+			</div>
+		<div class="tuuti"> -->
+			
+
+			<div th:insert="~{components/sidebar}"></div>
+			<div th:insert="~{components/sidebar2}"></div>
+
+			<div>
+				<span class="follow" style="text-align: center">フォロー</span>
+			</div>
+			<div>
+				<span class="retweet" style="text-align: center">リツイート</span>
+			</div>
+			<div>
+				<span class="coment" style="text-align: center">コメント</span>
+			</div>
+			<div>
+				<span class="news" style="text-align: center">ニュース</span>
+			</div>
+		</div>
+		<!-- on offボタン -->
+		<div class="toggle_button">
+			<input id="toggle" class="toggle_input" type='checkbox' />
+			<label for="toggle" class="toggle_label">
+		</div>
+
+		<!-- on offボタン -->
+		<div class="toggle1_button">
+			<input id="toggle" class="toggle1_input" type='checkbox' />
+			<label for="toggle" class="toggle1_label">
+		</div>
+
+		<!-- on offボタン -->
+		<div class="toggle2_button">
+			<input id="toggle" class="toggle2_input" type='checkbox' />
+			<label for="toggle" class="toggle2_label">
+		</div>
+
+		<!-- on offボタン -->
+		<div class="toggle3_button">
+			<input id="toggle" class="toggle3_input" type='checkbox' />
+			<label for="toggle" class="toggle3_label">
+		</div>
+	</div>
+</div>
+
+
+
+	<!-- BootStrapのもの -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<!-- Option 2: Separate Popper and Bootstrap JS -->
+	<!--
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	-->
+</body>
+</html>

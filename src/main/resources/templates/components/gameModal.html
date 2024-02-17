@@ -1,0 +1,22 @@
+<!-- GameModal -->
+<div class="modal fade" id="gameModal" tabindex="-1" aria-labelledby="gameModalLavle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="gameModalLavle">ゲームを選択</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul class="list-group">
+          <div th:each="game : ${gameList}">
+            <a th:onclick="|selectGame(__${game.id}__,'__${game.name}__')|" class="list-group-item list-group-item-action game-list" th:id="${game.name}" th:text="${game.name}">Game</a>
+          </div>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Sa</button> -->
+      </div>
+    </div>
+  </div>
+</div>

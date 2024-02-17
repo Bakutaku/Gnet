@@ -1,0 +1,65 @@
+#post {
+    background-color: rgb(0, 119, 255);
+}
+.post
+{
+    background-color: #404040;
+}
+
+.cansel{
+    position: sticky;
+    float: left;
+    top: 10px;
+}
+
+.main{
+
+    /* padding-left: 550px;
+    padding-top: 60px; */
+    margin: 0 auto;
+    width: 50%;
+    height: 100ch;
+}
+
+.input{
+    height: 200px;
+}
+
+.text{
+    background: #404040;
+    resize:none; /*サイズを変更不可にするやつ*/
+    overflow:hidden;/*スクロールバーを消すやつ*/
+    /* height: 50%;
+    width: 90%; */
+    text-align: left;
+    color: white;
+}
+
+.subcolor{
+    /* height: 400px;
+    width: 900px; */
+    background-color: #6E6E78;
+    margin: 0 auto;
+    
+    
+}
+.image{
+    top: 10%;
+    padding-left: 13%;
+}
+
+.subbtn1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.subbtn2{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+#post{
+    
+}

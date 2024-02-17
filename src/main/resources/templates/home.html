@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="css/home.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/sidebar.css">
+
+
+  <!-- jQuery -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(function() {
+			$("#sidebar").load("components/sidebar.html");
+		});
+	</script> -->
+
+  <title>ホーム画面</title>
+</head>
+
+<body>
+
+  <!-- 共通部品 -->
+  <!-- <div id="sidebar"></div> -->
+
+  <div th:insert="~{components/sidebar}"></div>
+
+  <div id="body">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-9">
+          <div class="row">
+            <div th:each="pos : ${posts}">
+              <div class="mt-2" th:insert="~{components/comment}"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 box d-flex justify-content-center">
+          <div class="h3 mt-3">トレンド</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BootStrapのもの -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
