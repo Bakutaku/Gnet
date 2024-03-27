@@ -23,6 +23,8 @@ CSS
 JavaScript
 ```
 
+``一部機能は未実装です。``
+
 ## サンプルの画面
 
 ![image](https://github.com/Bakutaku/Gnet/assets/133964557/d16729aa-6cb3-4b7e-8a75-910356220d31)
