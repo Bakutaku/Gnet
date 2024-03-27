@@ -22,3 +22,14 @@ HTML
 CSS
 JavaScript
 ```
+
+## サンプルの画面
+
+![image](https://github.com/Bakutaku/Gnet/assets/133964557/d16729aa-6cb3-4b7e-8a75-910356220d31)
+
+![image](https://github.com/Bakutaku/Gnet/assets/133964557/60aa72f6-e6d8-41ac-a265-3db706c60b36)
+
+![image](https://github.com/Bakutaku/Gnet/assets/133964557/412c103d-b464-474c-bf0e-0dd81c23b65d)
+
+
+
